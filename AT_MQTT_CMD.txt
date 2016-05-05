@@ -1,0 +1,15 @@
+AT+MQTT_CNWIFI="ROUTER_SSID","ROUTER_PASSWORD"       //to connect WiFi
+
+AT+MQTT_CONF="192.168.1.103",1883,0,60        //to set mqtt server,IP,PORT,SSL,KEEPALIVE
+
+AT+MQTT_SUB="/mqtt/test/#",0                  //subscribe topic, qos
+
+AT+MQTT_PUB="/mqtt/test/1","test001",0,0      //publish  topic,qos , retain
+
+AT+MQTT_DISC                                  //disconnect with mqtt server
+
+
+pwm duty range for r/g/b/w: 0-22222
+publish command
+mosquitto_pub -t /light_cmd/ -m '{"rgb":{"red":5000,"green":1000,"blue":22222,"white":22222}}'
+
