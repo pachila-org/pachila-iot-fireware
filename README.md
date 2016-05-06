@@ -19,6 +19,13 @@ Pachila-iot-fireware是基于乐鑫SDK扩展的针对ESP8266 wifi模组(ESP01~ES
 
 *方式2：根据产品(设备)的功能定义，扩展固件源程序，重新编译固件源程序(针对熟悉C语言和linux希望开发新产品的需求)
 
+  A. 使用git下载fireware的源代码
+  
+  B. 基于fireware源代码[ESP8266 IoT Demo](http://bbs.espressif.com/download/file.php?id=1363)以及[ESP8266其他文档](http://bbs.espressif.com/viewtopic.php?f=67&t=225)改写fireware源代码
+  
+  C. 根据[Getting Started Guide](http://www.espressif.com/support/explore/get-started/esp8266/getting-started-guide)的“1. Setup Compiling Environment”与“2. Compile SDK”里面的说明编译生成bin文件
+  
+  D. 参考方式1的步骤完成烧录固件,连接电路，配网等操作
 
 ## Supports
 
