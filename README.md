@@ -17,7 +17,7 @@ Pachila-iot-fireware是基于乐鑫SDK扩展的针对ESP8266 wifi模组(ESP01~ES
 
   E. 使用通过[Pachila-iot-mobile](https://github.com/pachila-org/pachila-iot-mobile)的手机APP远程操纵物理设备(手机APP需要用StepD的用户名和密码)
 
-*方式2：根据产品(设备)的功能定义，扩展固件源程序，重新编译固件源程序(针对熟悉C语言和linux希望开发新产品的需求)
+* 方式2：根据产品(设备)的功能定义，扩展固件源程序，重新编译固件源程序(针对熟悉C语言和linux希望开发新产品的需求)
 
   A. 使用git下载fireware的源代码
   
